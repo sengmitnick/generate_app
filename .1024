@@ -1,0 +1,6 @@
+run_command: "flask run -h 0.0.0.0 -p 8080"
+debug:
+  support: true
+  launch:
+    program: app.py
+    console: integratedTerminal
